@@ -13,6 +13,11 @@ body {
     justify-content: center;
     height: 100vh;
     font-family: 'Muli', sans-serif;
+    text-align: center;
+}
+
+.title {
+    margin: 20px;
 }
 
 .container {
@@ -76,6 +81,7 @@ h2 {
 }
 
 .form-button {
+    border: 0;
     display: block;
     text-align: center;
     padding: 5px;
@@ -84,6 +90,7 @@ h2 {
     height: 50px;
     width: 100%;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .form-button:hover {

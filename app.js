@@ -75,6 +75,6 @@ function submitForm(e) {
   checkLength(password, 6, 25);
   checkEmail(email);
   checkPasswordsMatch(password, password2);
-
-  e.preventDefault();
+  alert("REGISTRATION SUCCESSFUL");
+  // e.preventDefault();
 }
